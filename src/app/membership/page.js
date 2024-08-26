@@ -1,5 +1,5 @@
-import { fetchProfileAction } from "@/actions";
-import Membership from "@/components/membership";
+import { fetchProfileAction } from "../../action/index";
+import Membership from "../../components/membership";
 import { currentUser } from "@clerk/nextjs";
 import { redirect } from "next/navigation";
 

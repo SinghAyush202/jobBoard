@@ -1,6 +1,6 @@
 "use client";
 
-import { membershipPlans } from "@/utils";
+import { membershipPlans } from "../../utils";
 import CommonCard from "../common-card";
 import JobIcon from "../job-icon";
 import { Button } from "../ui/button";
@@ -8,7 +8,7 @@ import {
   createPriceIdAction,
   createStripePaymentAction,
   updateProfileAction,
-} from "@/actions";
+} from "../../action/index";
 import { loadStripe } from "@stripe/stripe-js";
 import { useSearchParams } from "next/navigation";
 import { useEffect } from "react";
