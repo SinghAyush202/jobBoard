@@ -6,10 +6,10 @@ import {
   initialCandidateFormData,
   initialRecruiterFormData,
   recruiterOnboardFormControls,
-} from "@/utils";
+} from "../../utils";
 import { useEffect, useState } from "react";
 import CommonForm from "../common-form";
-import { updateProfileAction } from "@/actions";
+import { updateProfileAction } from "../../action/index";
 
 function AccountInfo({ profileInfo }) {
   const [candidateFormData, setCandidateFormData] = useState(

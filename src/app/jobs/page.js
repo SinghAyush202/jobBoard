@@ -13,6 +13,7 @@ import {
     console.log(searchParams, "searchParams");
     const user = await currentUser();
     const profileInfo = await fetchProfileAction(user?.id);
+    console.log(profileInfo)
   
     const jobList =
       profileInfo?.role === "candidate"

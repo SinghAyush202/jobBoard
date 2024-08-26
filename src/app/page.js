@@ -5,7 +5,7 @@ import { currentUser } from "@clerk/nextjs";
 import { redirect } from "next/navigation";
 import { Fragment } from "react";
 
-async function Home() {
+export default async function Home() {
   const user = await currentUser();
   console.log(";sdfjsofjo")
   const profileInfo = await fetchProfileAction(user?.id);
@@ -13,7 +13,7 @@ async function Home() {
 
   if (user && !profileInfo?._id) {
     redirect("/onboard");}
-console.log("sd;fjsofkhjkbnkjhuioyh")
+
   return (
     <Fragment>
       <section className="relative w-full h-full min-h-screen pb-10">
@@ -52,5 +52,3 @@ console.log("sd;fjsofkhjkbnkjhuioyh")
     </Fragment>
   );
 }
-
-export default Home;

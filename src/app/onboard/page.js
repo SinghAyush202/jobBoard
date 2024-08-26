@@ -1,5 +1,5 @@
-import { fetchProfileAction } from "@/actions";
-import OnBoard from "@/components/on-board";
+import { fetchProfileAction } from "../../action/index";
+import OnBoard from "../../components/on-board/index";
 import { currentUser } from "@clerk/nextjs";
 import { redirect } from "next/navigation";
 
