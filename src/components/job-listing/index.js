@@ -1,6 +1,6 @@
 "use client";
 
-import { filterMenuDataArray, formUrlQuery } from "@/utils";
+import { filterMenuDataArray, formUrlQuery } from "../../utils/index";
 import CandidateJobCard from "../candidate-job-card";
 import PostNewJob from "../post-new-job";
 import RecruiterJobCard from "../recruiter-job-card";

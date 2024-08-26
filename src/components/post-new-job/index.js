@@ -4,9 +4,9 @@ import { useState } from "react";
 import { Button } from "../ui/button";
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "../ui/dialog";
 import CommonForm from "../common-form";
-import { initialPostNewJobFormData, postNewJobFormControls } from "@/utils";
-import { postNewJobAction } from "@/actions";
-import { useToast } from "@/components/ui/use-toast";
+import { initialPostNewJobFormData, postNewJobFormControls } from "../../utils";
+import { postNewJobAction } from "../../action/index";
+import { useToast } from "../../components/ui/use-toast";
 import Link from "next/link";
 
 function PostNewJob({ profileInfo, user, jobList }) {

@@ -1,8 +1,8 @@
 import {
     fetchJobApplicationsForCandidate,
     fetchJobsForCandidateAction,
-  } from "@/actions";
-  import CandidateActivity from "@/components/candidate-activity";
+  } from "../../action/index";
+  import CandidateActivity from "../../components/candidate-activity";
   import { currentUser } from "@clerk/nextjs";
   
   export default async function Activity() {

@@ -10,12 +10,12 @@ import {
   DrawerHeader,
   DrawerTitle,
   DrawerTrigger,
-} from "@/components/ui/drawer";
+} from "../../components/ui/drawer";
 
 import CommonCard from "../common-card";
 import JobIcon from "../job-icon";
 import { Button } from "../ui/button";
-import { createJobApplicationAction } from "@/actions";
+import { createJobApplicationAction } from "../../action/index";
 import { useToast } from "../ui/use-toast";
 
 function CandidateJobCard({ jobItem, profileInfo, jobApplications }) {

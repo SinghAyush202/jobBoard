@@ -6,7 +6,7 @@ import { Dialog, DialogContent, DialogFooter } from "../ui/dialog";
 import {
   getCandidateDetailsByIDAction,
   updateJobApplicationAction,
-} from "@/actions";
+} from "../../action/index";
 import { createClient } from "@supabase/supabase-js";
 
 const supabaseClient = createClient(

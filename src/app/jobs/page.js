@@ -5,7 +5,7 @@ import {
     fetchJobsForCandidateAction,
     fetchJobsForRecruiterAction,
     fetchProfileAction,
-  } from "../../actions";
+  } from "../../action/index";
   import JobListing from "../../components/job-listing/index";
   import { currentUser } from "@clerk/nextjs";
   

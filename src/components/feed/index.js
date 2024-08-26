@@ -8,7 +8,7 @@ import { Label } from "../ui/label";
 import { CirclePlus, Heart } from "lucide-react";
 import { Input } from "../ui/input";
 import { createClient } from "@supabase/supabase-js";
-import { createFeedPostAction, updateFeedPostAction } from "@/actions";
+import { createFeedPostAction, updateFeedPostAction } from "../../action/index";
 
 const supabaseClient = createClient(
   "https://ymsijpnegskkoiuerthi.supabase.co",

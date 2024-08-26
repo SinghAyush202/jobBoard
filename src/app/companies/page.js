@@ -1,11 +1,12 @@
  "use client";
 
 import { useRouter } from "next/navigation";
-import CommonCard from "../common-card";
-import JobIcon from "../job-icon";
-import { Button } from "../ui/button";
+import CommonCard from "../../components/common-card";
+import JobIcon from "../../components/job-icon/index";
+import { Button } from "../../components/ui/button";
 
 function Companies({ jobsList }) {
+    console.log(jobsList)
   const router = useRouter();
 
   const createUniqueSetOfCompanies = [
